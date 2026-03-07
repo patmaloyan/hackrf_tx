@@ -2,7 +2,7 @@ import subprocess
 import os
 
 # --- User settings ---
-dat_path = "waveforms/burst_QPSK_msg_5Mhzfs_3sec.dat"
+dat_path = "waveforms/Hamming_burst_QPSK_msg_5Mhzfs_3sec.dat"
 center_freq = 10e6 # Hz
 sample_rate = 5_000_000 # Must match waveform created
 tx_gain = 40                                # dB
